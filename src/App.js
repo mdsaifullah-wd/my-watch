@@ -3,13 +3,14 @@ import "./App.css";
 import About from "./components/About/About";
 import Blogs from "./components/Blogs/Blogs";
 import Dashboard from "./components/Dashboard/Dashboard";
+import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
     <div>
-      <h1>My Watch</h1>
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
