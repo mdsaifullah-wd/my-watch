@@ -1,15 +1,15 @@
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import About from "./components/About/About";
-import Blogs from "./components/Blogs/Blogs";
-import Dashboard from "./components/Dashboard/Dashboard";
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
-import Reviews from "./components/Reviews/Reviews";
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import About from './components/About/About';
+import Blogs from './components/Blogs/Blogs';
+import Dashboard from './components/Dashboard/Dashboard';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
-    <div>
+    <div className='text-gray'>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
