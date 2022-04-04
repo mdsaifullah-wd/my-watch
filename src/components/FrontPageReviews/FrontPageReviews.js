@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews/useReviews';
 import Review from '../Review/Review';
 
-const FrontReviews = () => {
+const FrontPageReviews = () => {
   const [reviews, setReviews] = useReviews();
   const navigate = useNavigate();
   return (
@@ -12,7 +12,7 @@ const FrontReviews = () => {
       </h2>
       <div className='grid md:grid-cols-3 gap-10 max-w-7xl mx-auto p-8'>
         {reviews
-          .filter((review) => review.id < 4)
+          .filter((review) => reviews.indexOf(review) < 3)
           .map((review) => (
             <Review key={review.id} review={review}></Review>
           ))}
@@ -26,4 +26,4 @@ const FrontReviews = () => {
   );
 };
 
-export default FrontReviews;
+export default FrontPageReviews;
