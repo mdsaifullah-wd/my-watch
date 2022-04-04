@@ -12,6 +12,10 @@ const Dashboard = () => {
 
   return (
     <section className='grid md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto p-8'>
+      <h2 className='text-2xl text-blue-800 text-center'>Monthly Sell</h2>
+      <h2 className='text-2xl text-blue-800 text-center'>
+        Investment vs Revenue
+      </h2>
       <CustomLineChart data={data} key={data.month}></CustomLineChart>
       <CustomAreaChart data={data} key={data.month}></CustomAreaChart>
     </section>
