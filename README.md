@@ -2,7 +2,7 @@
 
 ## Live site link
 
-Open [https:my-watch24.netlify.app](https:my-watch24.netlify.app) to view it in your browser.
+Open [https://my-watch24.netlify.app](https://my-watch24.netlify.app) to view it in your browser.
 
 ## Project Description
 
