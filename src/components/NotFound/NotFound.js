@@ -8,7 +8,7 @@ const NotFound = () => {
         <aside className='not-found-aside'>
           <img
             src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/Mirror.png'
-            alt='404 Image'
+            alt=''
           />
         </aside>
         <main className='text-white'>

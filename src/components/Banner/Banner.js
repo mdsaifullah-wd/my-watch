@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <section className='grid md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto p-8'>
+    <section className='grid md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto p-8 h-[calc(100vh-80px)]'>
       <div className='font-bold text-6xl'>
         <h2 className='mb-2'>The Home for the </h2>
         <h2 className='text-primary mb-10'>Greatest Collections</h2>
