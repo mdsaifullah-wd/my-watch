@@ -27,19 +27,19 @@ const Header = () => {
           )}
         </div>
         <nav className={navClass}>
-          <Link className='hover:text-primary' to={'/'}>
+          <Link className='hover:text-primary uppercase' to={'/'}>
             Home
           </Link>
-          <Link className='hover:text-primary' to={'/reviews'}>
+          <Link className='hover:text-primary uppercase' to={'/reviews'}>
             Reviews
           </Link>
-          <Link className='hover:text-primary' to={'/dashboard'}>
+          <Link className='hover:text-primary uppercase' to={'/dashboard'}>
             Dashboard
           </Link>
-          <Link className='hover:text-primary' to={'/blogs'}>
+          <Link className='hover:text-primary uppercase' to={'/blogs'}>
             Blogs
           </Link>
-          <Link className='hover:text-primary' to={'/about'}>
+          <Link className='hover:text-primary uppercase' to={'/about'}>
             About
           </Link>
         </nav>

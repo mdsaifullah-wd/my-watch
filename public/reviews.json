@@ -46,5 +46,53 @@
     "title": "Well built, I highly recommended!!",
     "review": "I have every model of Rolex besides several other high end Swiss and German brands including a few Grand Seiko. ",
     "ratings": 4
+  },
+  {
+    "id": 7,
+    "name": "Tommy Robertson",
+    "img": "https://randomuser.me/api/portraits/men/7.jpg",
+    "title": "You will be happy I guaranty.",
+    "review": "As a watch enthusiast who is generally all about the well-known brands, I ordered this watch because it is a homage to the Rolex Datejust with fluted bezel.",
+    "ratings": 4
+  },
+  {
+    "id": 8,
+    "name": "James Mendoza",
+    "img": "https://randomuser.me/api/portraits/men/9.jpg",
+    "title": "Carries value for the cost!",
+    "review": "The watch carries a lot of value for the cost you pay. You get sapphire crystal / automatic movement (Miyota - very durable) / nice finish on the case & bracelet.",
+    "ratings": 4.5
+  },
+  {
+    "id": 9,
+    "name": "Morris Zimmerman",
+    "img": "https://randomuser.me/api/portraits/men/9.jpg",
+    "title": "Impressed with its built quality!",
+    "review": "I've had this watch for about two years now and am impressed with its build quality. It still looks new and I've even1112had people compliment me on my nice watch.",
+    "ratings": 5
+  },
+  {
+    "id": 10,
+    "name": "Christian Porter",
+    "img": "https://randomuser.me/api/portraits/men/10.jpg",
+    "title": "Surprised about the good quality",
+    "review": "This is my first Burei watch and I'm really surprised about the nice quality. Heavy, but not too heavy, the Japanese Miyota is running smoothly.",
+    "ratings": 5
+  },
+  {
+    "id": 11,
+    "name": "Chester Jordan",
+    "img": "https://randomuser.me/api/portraits/men/11.jpg",
+    "title": "Extraordinary Watch",
+    "review": "I bought this watch as a gift for a friend but when it arrived it looked so good I kept it and save my friend a different one.",
+    "ratings": 5
+  },
+  {
+    "id": 12,
+    "name": "Stuart May",
+    "img": "https://randomuser.me/api/portraits/men/12.jpg",
+    "title": "Outstanding performance!",
+    "review": "I have every model of Rolex besides several other high end Swiss and German brands including a few Grand Seiko. ",
+    "ratings": 4
   }
 ]
