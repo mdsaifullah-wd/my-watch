@@ -19,9 +19,21 @@ const Blogs = () => {
         Provider is a component that provides the state to its children.
         Consumer is a component that uses the state.
       </p>
+      <h2 className='font-bold text-4xl text-primary mt-10 mb-6'>
+        What is Semantic tag?
+      </h2>
+      <p className='text-2xl text-gray'>
+        HTML semantic tag is new addition in HTML 5. Semantic tag refers to
+        meaningful html elements. By using these tags we can specify what the
+        content is. Some examples are header, main, footer, article, address
+        etc. Developers or browsers can understand the content of a webpage
+        using semantic tags. The purpose of Semantic tags are to provide
+        accessibility to the browsers. It is also helpful for SEO. Search
+        Engines uses semantic tag to show the appropriate results to the users.
+      </p>
 
       <h2 className='font-bold text-4xl text-primary mt-10 mb-6'>
-        Block vs Inline vs Inline-block Elements
+        Block vs Inline vs Inline-block Elements.
       </h2>
       <p className='text-2xl text-gray mb-4'>
         <strong>Block-level</strong> elements always create a new line. They
