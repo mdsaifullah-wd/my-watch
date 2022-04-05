@@ -4,7 +4,7 @@ const Review = (props) => {
   const { name, img, title, review, ratings } = props.review;
 
   return (
-    <div className='rounded-lg shadow-lg p-5'>
+    <div className='rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-200 p-5'>
       <div className='flex items-center mb-5'>
         <img src={img} alt='' className='w-16 h-16 rounded-full mr-4' />
         <div>
