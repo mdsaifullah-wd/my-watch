@@ -10,7 +10,7 @@ const Ratings = ({ ratings }) => {
     stars.push(
       <FontAwesomeIcon
         icon={faStar}
-        className='w-3 h-3 text-yellow-400 inline'></FontAwesomeIcon>
+        className='w-4 h-4 text-yellow-400 inline'></FontAwesomeIcon>
     );
   }
   return (
@@ -20,13 +20,13 @@ const Ratings = ({ ratings }) => {
         {halfStar === 0.5 && (
           <FontAwesomeIcon
             icon={faStarHalfStroke}
-            className='w-3 h-3 text-yellow-400'
+            className='w-4 h-4 text-yellow-400'
           />
         )}
       </span>
       <span>
         {halfStar === 1 && (
-          <FontAwesomeIcon icon={faStar} className='w-3 h-3 text-slate-300' />
+          <FontAwesomeIcon icon={faStar} className='w-4 h-4 text-slate-300' />
         )}
       </span>
     </div>

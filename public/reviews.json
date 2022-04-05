@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Domingo Gregory",
     "img": "https://randomuser.me/api/portraits/men/1.jpg",
-    "title": "Really well built. Excellent finishing. Value for money.",
-    "review": "As a watch enthusiast who is generally all about the well-known brands (ORIS, Patek, Rolex, specific Seikos, etc.), I ordered this watch because it is a homage to the Rolex Datejust with fluted bezel. I was not expecting much from a brand I've never heard of and at this price point, not expecting quality at all.",
+    "title": "Really well built. Excellent finishing.",
+    "review": "As a watch enthusiast who is generally all about the well-known brands, I ordered this watch because it is a homage to the Rolex Datejust with fluted bezel.",
     "ratings": 5
   },
   {
@@ -12,15 +12,15 @@
     "name": "Cameron Foster",
     "img": "https://randomuser.me/api/portraits/men/2.jpg",
     "title": "Great value for the bucks",
-    "review": "The watch carries a lot of value for the cost you pay. You get sapphire crystal / automatic movement (Miyota - very durable) / nice finish on the case & bracelet. I even put it on the timegrapher to test for accuracy and got +12 to +14 seconds per day which is well within the specification of Miyota automatic movement (- 20 s/day to + 40 s/day).",
+    "review": "The watch carries a lot of value for the cost you pay. You get sapphire crystal / automatic movement (Miyota - very durable) / nice finish on the case & bracelet.",
     "ratings": 4.5
   },
   {
     "id": 3,
     "name": "Curtis Cain",
     "img": "https://randomuser.me/api/portraits/men/3.jpg",
-    "title": "I've received compliments on this watch!",
-    "review": "I've had this watch for about two years now and am impressed with its build quality. It still looks new and I've even had people compliment me on my nice watch. This is the only watch I own that's received a compliment. At first, I wasn't sure if I liked the bracelet or not, but it's proven to be a perfect match in style and design. ",
+    "title": "Received compliments on this!",
+    "review": "I've had this watch for about two years now and am impressed with its build quality. It still looks new and I've even had people compliment me on my nice watch.",
     "ratings": 5
   },
   {
@@ -28,7 +28,7 @@
     "name": "Woodrow Rivera",
     "img": "https://randomuser.me/api/portraits/men/4.jpg",
     "title": "Surprised about the good quality",
-    "review": "This is my first Burei watch and I'm really surprised about the nice quality. Heavy, but not too heavy, the Japanese Miyota is running smoothly, the date number is stopping in the middle, the date magnifier is sitting perfectly, the strap has a comfortable feeling and is closing securely.",
+    "review": "This is my first Burei watch and I'm really surprised about the nice quality. Heavy, but not too heavy, the Japanese Miyota is running smoothly.",
     "ratings": 5
   },
   {
@@ -36,15 +36,15 @@
     "name": "Joshua Newman",
     "img": "https://randomuser.me/api/portraits/men/5.jpg",
     "title": "Awesome Watch",
-    "review": "I bought this watch as a gift for a friend but when it arrived it looked so good I kept it and save my friend a different one. I get so many complements that it looks expensive and luxurious. It keep great time and is now my favorite.",
+    "review": "I bought this watch as a gift for a friend but when it arrived it looked so good I kept it and save my friend a different one.",
     "ratings": 5
   },
   {
     "id": 6,
     "name": "Wayne Malone",
     "img": "https://randomuser.me/api/portraits/men/6.jpg",
-    "title": "Well built, nice finish, I highly recommended!!",
-    "review": "I have every model of Rolex besides several other high end Swiss and German brands including a few Grand Seiko. I am shocked at the quality of these very inexpensive mechanical watches. The attention to detail is extraordinarily good..",
+    "title": "Well built, I highly recommended!!",
+    "review": "I have every model of Rolex besides several other high end Swiss and German brands including a few Grand Seiko. ",
     "ratings": 4
   }
 ]
