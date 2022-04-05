@@ -28,21 +28,34 @@ const Header = () => {
           )}
         </div>
         <nav className={navClass}>
-          <CustomLink className='hover:text-primary uppercase' to={'/'}>
+          <CustomLink
+            onClick={handleToggleBarIcon}
+            className='hover:text-primary uppercase'
+            to={'/'}>
             Home
           </CustomLink>
-          <CustomLink className='hover:text-primary uppercase' to={'/reviews'}>
+          <CustomLink
+            onClick={handleToggleBarIcon}
+            className='hover:text-primary uppercase'
+            to={'/reviews'}>
             Reviews
           </CustomLink>
           <CustomLink
+            onClick={handleToggleBarIcon}
             className='hover:text-primary uppercase'
             to={'/dashboard'}>
             Dashboard
           </CustomLink>
-          <CustomLink className='hover:text-primary uppercase' to={'/blogs'}>
+          <CustomLink
+            onClick={handleToggleBarIcon}
+            className='hover:text-primary uppercase'
+            to={'/blogs'}>
             Blogs
           </CustomLink>
-          <CustomLink className='hover:text-primary uppercase' to={'/about'}>
+          <CustomLink
+            onClick={handleToggleBarIcon}
+            className='hover:text-primary uppercase'
+            to={'/about'}>
             About
           </CustomLink>
         </nav>
