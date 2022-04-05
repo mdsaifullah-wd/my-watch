@@ -11,17 +11,8 @@ import {
 
 const CustomAreaChart = ({ data }) => {
   return (
-    <ResponsiveContainer width='100%' height='100%'>
-      <AreaChart
-        width={200}
-        height={60}
-        data={data}
-        margin={{
-          top: 5,
-          right: 0,
-          left: 0,
-          bottom: 5,
-        }}>
+    <ResponsiveContainer width='100%' height={400}>
+      <AreaChart data={data}>
         <CartesianGrid strokeDasharray='3 3' />
         <XAxis dataKey='month' />
         <YAxis />

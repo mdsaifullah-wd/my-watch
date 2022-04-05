@@ -7,7 +7,7 @@ const FrontPageReviews = () => {
   const navigate = useNavigate();
   return (
     <section className='pb-20'>
-      <h2 className='font-bold text-4xl text-center text-primary my-10'>
+      <h2 className='font-bold text-3xl md:text-4xl text-center text-primary mt-10 md:mb-10'>
         Hear from Our Customers!
       </h2>
       <div className='grid md:grid-cols-3 gap-10 max-w-7xl mx-auto p-8 mb-8'>
