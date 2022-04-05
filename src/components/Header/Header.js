@@ -9,7 +9,7 @@ const Header = () => {
   const handleToggleBarIcon = () => {
     setBarIcon(!barIcon);
   };
-  const navClass = `flex flex-col md:flex-row absolute md:static right-0 gap-5 font-semibold text-xl bg-white w-full md:w-auto text-center py-5 md:py-0 transition-opacity duration-500 ${
+  const navClass = `flex flex-col md:flex-row absolute md:static right-0 gap-5 font-semibold text-lg bg-white w-full md:w-auto text-center py-5 md:py-0 transition-opacity duration-500 ${
     barIcon ? 'top-[-500px] opacity-0 md:opacity-100' : 'top-[80px] opacity-100'
   }`;
   return (
