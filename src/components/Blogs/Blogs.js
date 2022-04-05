@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
   return (
-    <div className='max-w-7xl mx-auto p-8'>
+    <section className='max-w-7xl mx-auto p-8'>
       <h2 className='font-bold text-4xl text-primary mt-10 mb-6'>
         What is Context API?
       </h2>
@@ -41,7 +41,7 @@ const Blogs = () => {
         an inline-block element. When we needs an inline element behaves like
         block level element(except width) we can use inline-block element.
       </p>
-    </div>
+    </section>
   );
 };
 

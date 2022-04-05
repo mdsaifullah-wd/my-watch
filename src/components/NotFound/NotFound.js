@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NotFound = () => {
   return (
-    <div className='bg-gray'>
+    <section className='bg-gray'>
       <div className='h-[calc(100vh-80px)] flex items-center max-w-7xl mx-auto p-8'>
         <aside className='not-found-aside'>
           <img
@@ -24,7 +24,7 @@ const NotFound = () => {
           </Link>
         </main>
       </div>
-    </div>
+    </section>
   );
 };
 

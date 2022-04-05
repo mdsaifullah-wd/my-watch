@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pie, PieChart, ResponsiveContainer, Tooltip, XAxis } from 'recharts';
+import { Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
 
 const CustomPieChart = ({ data }) => {
   return (
