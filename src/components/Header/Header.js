@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
   const [barIcon, setBarIcon] = useState(true);
@@ -27,21 +28,23 @@ const Header = () => {
           )}
         </div>
         <nav className={navClass}>
-          <Link className='hover:text-primary uppercase' to={'/'}>
+          <CustomLink className='hover:text-primary uppercase' to={'/'}>
             Home
-          </Link>
-          <Link className='hover:text-primary uppercase' to={'/reviews'}>
+          </CustomLink>
+          <CustomLink className='hover:text-primary uppercase' to={'/reviews'}>
             Reviews
-          </Link>
-          <Link className='hover:text-primary uppercase' to={'/dashboard'}>
+          </CustomLink>
+          <CustomLink
+            className='hover:text-primary uppercase'
+            to={'/dashboard'}>
             Dashboard
-          </Link>
-          <Link className='hover:text-primary uppercase' to={'/blogs'}>
+          </CustomLink>
+          <CustomLink className='hover:text-primary uppercase' to={'/blogs'}>
             Blogs
-          </Link>
-          <Link className='hover:text-primary uppercase' to={'/about'}>
+          </CustomLink>
+          <CustomLink className='hover:text-primary uppercase' to={'/about'}>
             About
-          </Link>
+          </CustomLink>
         </nav>
       </div>
     </header>
