@@ -14,7 +14,7 @@ const Banner = () => {
       </div>
       <div>
         <img
-          src='https://img.freepik.com/free-photo/elegant-watch-with-silver-golden-chain-isolated_181624-27080.jpg?t=st=1649006176~exp=1649006776~hmac=5c5ecaa914f5d24e7396ba2d225116a4afc826a990bea648195e90e1754e4f7a&w=826'
+          src='https://pngimg.com/uploads/watches/watches_PNG101452.png'
           alt='Watch'
           className='w-3/4 ml-auto'
         />

@@ -3,10 +3,10 @@ import useReviews from '../../hooks/useReviews/useReviews';
 import Review from '../Review/Review';
 
 const FrontPageReviews = () => {
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
   const navigate = useNavigate();
   return (
-    <section className='mb-20'>
+    <section className='pb-20'>
       <h2 className='font-bold text-4xl text-center text-primary my-10'>
         Hear from Our Customers!
       </h2>

@@ -5,7 +5,7 @@ import Review from '../Review/Review';
 const Reviews = () => {
   const [reviews] = useReviews();
   return (
-    <section className='mb-20'>
+    <section className='pb-20'>
       <h2 className='font-bold text-5xl text-primary text-center my-10'>
         Customer Review
       </h2>
