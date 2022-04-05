@@ -10,7 +10,7 @@ import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
-    <div className='text-gray'>
+    <div className='text-gray bg-gra'>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
